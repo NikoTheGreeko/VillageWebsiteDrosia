@@ -17,9 +17,8 @@
 }
 
 .middle{
-    margin: auto;
-    border: 0.5em;
-    border-color: red;
+  display: flex;
+  justify-content: center;
 }
 
 
