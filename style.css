@@ -15,6 +15,12 @@ animation: fadeIn 2s;
 .FadeImage { animation: fadeIn 2s; 
 }
 
+.middle{
+    margin: auto;
+    border: 0.5em;
+    border-color: red;
+}
+
 
 @keyframes fadeIn {
 0% { opacity: 0; }
@@ -29,6 +35,8 @@ p{text-align: center;}
 img{margin: 15px;}
 
 body{background-color: rgb(177, 213, 245);}
+
+
 
 .center {
 display: block;
