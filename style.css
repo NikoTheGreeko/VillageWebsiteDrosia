@@ -1,6 +1,7 @@
 
 p {
     font-size: 1.5em;
+    
 }
 
 h2 {
@@ -12,11 +13,16 @@ ul {
 }
 
 button {
-    background-color: burlywood
+    background-color: burlywood;
+    
 }
 
 button {
     font-size: 1em;
+}
+a{
+    text-decoration: none;
+    
 }
 
 
