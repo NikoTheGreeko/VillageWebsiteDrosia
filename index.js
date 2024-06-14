@@ -10,7 +10,7 @@ window.addEventListener("load", (event) => {
         console.log(data)
         const current = data.current.temp_c
         console.log(current)
-        document.getElementById("weatherloc").textContent=current+" C!";
+        document.getElementById("weatherloc").textContent=`${current} C!`;
     })
 
 
