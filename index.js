@@ -1,5 +1,5 @@
 const btn = document.querySelector('button');
 
 btn.onclick = () => {
-    alert('This Button Works!')
+    console.log("This button works!")
 }
