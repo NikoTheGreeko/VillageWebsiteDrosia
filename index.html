@@ -2,7 +2,6 @@
 
 <head>
     <title>Nikos Village Website lol</title>
-    
     <link href="style.css" rel="styleSheet"/>
 </head>
 
@@ -14,13 +13,22 @@
 
 <div class="Fadein">
     <p>This is the test paragraph for the site. Maybe one day
-        it won't look like it was made in 1999. 
+        it won't look like it was made in 1999.
     </p>
 </div>
+<!--This is my test dropdown menu. Once I merge this to the main branch im going to make it link to other pages-->
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
 
 
 
-
+<button class="FadeIn">Test Button</button>
 
 <div class="Fadein"><h2>Cool Things to do in Drosia</h2></div>
 
@@ -85,7 +93,11 @@
        referrerpolicy="no-referrer-when-downgrade"
 ></iframe></div>
 
+<div class ="weather" >The current weather in Drosia is <span id="weatherloc"></span></div>
+
 
 <script src="index.js"></script>
+<script src="config.js" type="module"></script>
+
 </body>
 </html>
