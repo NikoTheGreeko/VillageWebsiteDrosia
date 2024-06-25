@@ -70,3 +70,12 @@ body {
     margin-right: auto;
     width: 50%;
 }
+body {
+    background-color: rgb(177, 213, 245);
+}
+.weather{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
