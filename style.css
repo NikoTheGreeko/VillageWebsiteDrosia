@@ -102,3 +102,21 @@ body {
   .dropdown-content a:hover {background-color: #ddd;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  main{
+    display: grid;
+    grid-template-areas: "topbar topbar topbar topbar"
+                         "test   text    text    none"
+                         "list   empty   empty button"
+                         "music   map    map   music2";
+  }
+
+  h1{grid-area: topbar; }
+  p{grid-area: text; }
+  h2{grid-area: test; }
+  nav{}
+  footer{}
+  
+
+  
