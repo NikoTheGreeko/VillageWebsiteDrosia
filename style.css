@@ -104,7 +104,7 @@ body {
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-  main{
+  .myGrid{
     display: grid;
     grid-template-areas: "topbar topbar topbar topbar"
                          "test   text    text    none"
@@ -117,6 +117,10 @@ body {
   h2{grid-area: test; }
   nav{}
   footer{}
+
+  .photoGrid{
+    display: grid;
+  }
   
 
   
