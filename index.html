@@ -1,103 +1,92 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikos Village Website lol</title>
-    <link href="style.css" rel="styleSheet"/>
+    <link href="style.css" rel="styleSheet" />
 </head>
 
 <body>
-
-<div class="FadeIn">
-    <h1>Welcome to Drosia!</h1>
-</div>
-
-<div class="Fadein">
-    <p>This is the test paragraph for the site. Maybe one day
-        it won't look like it was made in 1999.
-    </p>
-</div>
-<!--This is my test dropdown menu. Once I merge this to the main branch im going to make it link to other pages-->
-<div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+    <main class="myGrid">
+    <div class="FadeIn">
+        <h1>Welcome to Drosia!</h1>
     </div>
-  </div>
+
+    <div class="Fadein">
+        <p>This is the test paragraph for the site. Maybe one day
+            it won't look like it was made in 1999.
+        </p>
+    </div>
+
+    
+
+        <!--This is my test dropdown menu. Once I merge this to the main branch im going to make it link to other pages-->
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="about.html">About</a>
+                <a href="photos.html">Photos</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
 
 
 
-<button class="FadeIn">Test Button</button>
+        <button class="FadeIn">Test Button</button>
 
-<div class="Fadein"><h2>Cool Things to do in Drosia</h2></div>
+        <div class="Fadein">
+            <h2>Cool Things to do in Drosia</h2>
+        </div>
 
-<div class="FadeIn">
-    <ul>
-        <li>Hiking</li>
-        <li>Going out to the village square</li>
-        <li>Climbing mount Erymanthos</li>
-        <li>Insert other stuff here lmao</li>
-    </ul>
-</div>
+        <div class="FadeIn">
+            <ul>
+                <li>Hiking</li>
+                <li>Going out to the village square</li>
+                <li>Climbing mount Erymanthos</li>
+                <li>Insert other stuff here lmao</li>
+            </ul>
+        </div>
 
-<div class="FadeImage"><img alt="View of Drosia" class="Center" src="./view-of-drosia.jpg"/></div>
-
-
-<div class="middle">
-    <iframe
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            frameborder="0"
-            height="315"
-            referrerpolicy="strict-origin-when-cross-origin"
-            src="https://www.youtube.com/embed/IZNSk3OnKaI?si=JOLS9Rgq8LYF_vKf"
-            title="YouTube video player"
-            width="560"
-    ></iframe>
-</div>
+        <div class="FadeImage"><img alt="View of Drosia" class="Center" src="./view-of-drosia.jpg" /></div>
 
 
-<iframe
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        allowfullscreen=""
-        frameBorder="0"
-        height="152"
-        loading="lazy"
-        src="https://open.spotify.com/embed/track/4tb7XVRCUzPKeNyhFsZotg?utm_source=generator"
-        style="border-radius:12px" width="25%"
-></iframe>
-
-<iframe
-        align="right"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        allowfullscreen=""
-        frameBorder="0"
-        height="152"
-        loading="lazy"
-        src="https://open.spotify.com/embed/track/2uh88Sbc5kFNV8p2cfrFsP?utm_source=generator"
-        style="border-radius:12px"
-        width="25%"
-></iframe>
-
-<div class="Fadein">
-  <p>Map of Drosia</p>
-</div>
-
-<div class ="middle"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.663431282158!2d21.74221452652561!3d37.91795792194969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135e29d93c5d3ea3%3A0x500bd2ce2bb41a0!2sDrosia%20250%2015%2C%20Greece!5e1!3m2!1sen!2sus!4v1717344622744!5m2!1sen!2sus"
-       width="600" 
-       height="450" 
-       style="border:0;" 
-       allowfullscreen="" 
-       loading="lazy" 
-       referrerpolicy="no-referrer-when-downgrade"
-></iframe></div>
-
-<div class ="weather" >The current weather in Drosia is <span id="weatherloc"></span></div>
+        <div class="middle">
+            <iframe
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin"
+                src="https://www.youtube.com/embed/IZNSk3OnKaI?si=JOLS9Rgq8LYF_vKf" title="YouTube video player"
+                width="560"></iframe>
+        </div>
 
 
-<script src="index.js"></script>
-<script src="config.js" type="module"></script>
+        <iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" allowfullscreen=""
+            frameBorder="0" height="152" loading="lazy"
+            src="https://open.spotify.com/embed/track/4tb7XVRCUzPKeNyhFsZotg?utm_source=generator"
+            style="border-radius:12px" width="25%"></iframe>
+
+        <iframe align="right" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            allowfullscreen="" frameBorder="0" height="152" loading="lazy"
+            src="https://open.spotify.com/embed/track/2uh88Sbc5kFNV8p2cfrFsP?utm_source=generator"
+            style="border-radius:12px" width="25%"></iframe>
+
+    
+            <p>Map of Drosia</p>
+        
+
+        <div class="middle"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.663431282158!2d21.74221452652561!3d37.91795792194969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135e29d93c5d3ea3%3A0x500bd2ce2bb41a0!2sDrosia%20250%2015%2C%20Greece!5e1!3m2!1sen!2sus!4v1717344622744!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        <div class="weather">The current weather in Drosia is <span id="weatherloc"></span></div>
+
+
+        <script src="index.js"></script>
+        <script src="config.js" type="module"></script>
+
+    </main>
+
 
 </body>
+
 </html>
